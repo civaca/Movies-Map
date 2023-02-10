@@ -32,14 +32,11 @@ rect.tile:hover{
    
 }
 #legend{
-   
-    height: 100px;
+    height: 35px;
     width: 500px;
     position: absolute;
-
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+   flex-direction: row;
    
 }
 
