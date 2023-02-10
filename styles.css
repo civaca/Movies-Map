@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+#tooltip{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+
+}
+p{
+    margin: 1px;
+    padding: 1px;
+
+}
+path:hover{
+stroke:black;
+}
+text{
+    font-size: 0.65rem;
+    text-align: center;
+   
+   
+}
+rect.tile:hover{
+    stroke: black;
+   
+}
+#legend{
+   
+    height: 100px;
+    width: 500px;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+
+
